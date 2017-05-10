@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CB3D107C7AF76455B8718CB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CB3DA5DEEE5AB3239AB1CAC /* Info.plist */; };
+		1CB3D2EEFA47501040C9394B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CB3D432781472535DAA4010 /* LaunchScreen.storyboard */; };
+		1CB3D4062AA640F83F5D2C51 /* AgoraSignalSDKUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB3DFC1BBCF261D08F43595 /* AgoraSignalSDKUITests.m */; };
+		1CB3D4398EAC0E0C7D1548CE /* libagora_fat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB3D0672A0F66E7FDE5C5CC /* libagora_fat.a */; };
+		1CB3D4B26E13CE16437FD448 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CB3DC549063C6D6993F8FEB /* Info.plist */; };
+		1CB3D690900CBAA9188E60DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CB3D65AC5530E89033A3ABB /* Main.storyboard */; };
+		1CB3D6D92EF138D375E93F02 /* AgoraSignalSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB3DB3117210EF6D4C792A9 /* AgoraSignalSDKTests.m */; };
+		1CB3D78387308E30AF581577 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CB3DEB8FCF77BA6091902BC /* Assets.xcassets */; };
+		1CB3D97C6DD20ED0A91623D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB3D05906FC33E21178B1F7 /* AppDelegate.m */; };
+		1CB3DC250938B63AFE7BC72A /* CertificateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB3D7F58A06CD1C0F7E5B9C /* CertificateHelper.m */; };
+		1CB3DD540424F405DBDECD3D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CB3D2792BDEF27F78072C28 /* Info.plist */; };
+		1CB3DF52C3291B72CB40C320 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB3D57F5F2A13B639409FB5 /* ViewController.m */; };
+		1CB3DF581D6808CB88022E5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB3D8E6898F71FD841A2B7E /* main.m */; };
+		522A94BA1EC2A83300F8A9BB /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 522A94B91EC2A83300F8A9BB /* libc++.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CB3DC49B7DDA5733355747C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CB3DCB1D6E3D5DD94350B3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CB3DD2021B5A9E3691970D9;
+			remoteInfo = AgoraSignalSDK;
+		};
+		1CB3DDCCF3435B2DA6D19CD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CB3DCB1D6E3D5DD94350B3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CB3DD2021B5A9E3691970D9;
+			remoteInfo = AgoraSignalSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CB3D019A3162B50836EA4DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1CB3D05906FC33E21178B1F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1CB3D0672A0F66E7FDE5C5CC /* libagora_fat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libagora_fat.a; sourceTree = "<group>"; };
+		1CB3D190D28649FD659D98F9 /* CertificateHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CertificateHelper.h; sourceTree = "<group>"; };
+		1CB3D2792BDEF27F78072C28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		1CB3D57F5F2A13B639409FB5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1CB3D5D428926B4837840DCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1CB3D75282FD1AAF27586295 /* AgoraSignalSDKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgoraSignalSDKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CB3D7DEEE2C0CE5D5812F72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1CB3D7F58A06CD1C0F7E5B9C /* CertificateHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CertificateHelper.m; sourceTree = "<group>"; };
+		1CB3D8E6898F71FD841A2B7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1CB3DA5DEEE5AB3239AB1CAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		1CB3DA8616FCC07941B58060 /* AgoraSignalSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgoraSignalSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CB3DB3117210EF6D4C792A9 /* AgoraSignalSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AgoraSignalSDKTests.m; sourceTree = "<group>"; };
+		1CB3DB458D6FDFA04A330B08 /* agorasdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = agorasdk.h; sourceTree = "<group>"; };
+		1CB3DC549063C6D6993F8FEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		1CB3DC690AF5F7E541A1319E /* AgoraSignalSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgoraSignalSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CB3DD4A048A47CFF10EA0E5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1CB3DEB8FCF77BA6091902BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1CB3DFC1BBCF261D08F43595 /* AgoraSignalSDKUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AgoraSignalSDKUITests.m; sourceTree = "<group>"; };
+		522A94B91EC2A83300F8A9BB /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CB3D2EF218CE7ED2A6B863C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CB3D344AF5AED9C9DB3F502 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CB3D48EF52D7262E015C4E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				522A94BA1EC2A83300F8A9BB /* libc++.tbd in Frameworks */,
+				1CB3D4398EAC0E0C7D1548CE /* libagora_fat.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CB3D08F0B79A43E16538948 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CB3DC690AF5F7E541A1319E /* AgoraSignalSDK.app */,
+				1CB3DA8616FCC07941B58060 /* AgoraSignalSDKTests.xctest */,
+				1CB3D75282FD1AAF27586295 /* AgoraSignalSDKUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CB3D3A06E51DCA1E86846C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CB3D8E6898F71FD841A2B7E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1CB3D49D8555F7C5E4CB188E /* AgoraSignalSDK */ = {
+			isa = PBXGroup;
+			children = (
+				1CB3DA5DEEE5AB3239AB1CAC /* Info.plist */,
+				1CB3DEB8FCF77BA6091902BC /* Assets.xcassets */,
+				1CB3D432781472535DAA4010 /* LaunchScreen.storyboard */,
+				1CB3D3A06E51DCA1E86846C1 /* Supporting Files */,
+				1CB3D019A3162B50836EA4DA /* AppDelegate.h */,
+				1CB3D05906FC33E21178B1F7 /* AppDelegate.m */,
+				1CB3D65AC5530E89033A3ABB /* Main.storyboard */,
+				1CB3DD4A048A47CFF10EA0E5 /* ViewController.h */,
+				1CB3D57F5F2A13B639409FB5 /* ViewController.m */,
+				1CB3D8ACD2565990AE03879E /* signal */,
+				1CB3D7F58A06CD1C0F7E5B9C /* CertificateHelper.m */,
+				1CB3D190D28649FD659D98F9 /* CertificateHelper.h */,
+			);
+			path = AgoraSignalSDK;
+			sourceTree = "<group>";
+		};
+		1CB3D63B239D9C4E4054AFFA /* AgoraSignalSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				1CB3D2792BDEF27F78072C28 /* Info.plist */,
+				1CB3DB3117210EF6D4C792A9 /* AgoraSignalSDKTests.m */,
+			);
+			path = AgoraSignalSDKTests;
+			sourceTree = "<group>";
+		};
+		1CB3D8ACD2565990AE03879E /* signal */ = {
+			isa = PBXGroup;
+			children = (
+				1CB3DB458D6FDFA04A330B08 /* agorasdk.h */,
+				1CB3D0672A0F66E7FDE5C5CC /* libagora_fat.a */,
+			);
+			path = signal;
+			sourceTree = "<group>";
+		};
+		1CB3DCD278F7824717FC131D = {
+			isa = PBXGroup;
+			children = (
+				1CB3D08F0B79A43E16538948 /* Products */,
+				1CB3D49D8555F7C5E4CB188E /* AgoraSignalSDK */,
+				1CB3D63B239D9C4E4054AFFA /* AgoraSignalSDKTests */,
+				1CB3DF1EC3F78FC763AD4E82 /* AgoraSignalSDKUITests */,
+				522A94B81EC2A83300F8A9BB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1CB3DF1EC3F78FC763AD4E82 /* AgoraSignalSDKUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1CB3DC549063C6D6993F8FEB /* Info.plist */,
+				1CB3DFC1BBCF261D08F43595 /* AgoraSignalSDKUITests.m */,
+			);
+			path = AgoraSignalSDKUITests;
+			sourceTree = "<group>";
+		};
+		522A94B81EC2A83300F8A9BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				522A94B91EC2A83300F8A9BB /* libc++.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CB3D80F072F9BD1327260CA /* AgoraSignalSDKUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CB3D73951A5B71BBC59BDE6 /* Build configuration list for PBXNativeTarget "AgoraSignalSDKUITests" */;
+			buildPhases = (
+				1CB3D28141B4F638139175CF /* Sources */,
+				1CB3D344AF5AED9C9DB3F502 /* Frameworks */,
+				1CB3DC2DD5C939FD31586D58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CB3D48B6CA416F331C227B4 /* PBXTargetDependency */,
+			);
+			name = AgoraSignalSDKUITests;
+			productName = AgoraSignalSDKUITests;
+			productReference = 1CB3D75282FD1AAF27586295 /* AgoraSignalSDKUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		1CB3DD2021B5A9E3691970D9 /* AgoraSignalSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CB3D0E112B3F581538A5E56 /* Build configuration list for PBXNativeTarget "AgoraSignalSDK" */;
+			buildPhases = (
+				1CB3D6422130CED3E0DB2CB8 /* Sources */,
+				1CB3D48EF52D7262E015C4E4 /* Frameworks */,
+				1CB3D9EBA2E6159F18FD290C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AgoraSignalSDK;
+			productName = AgoraSignalSDK;
+			productReference = 1CB3DC690AF5F7E541A1319E /* AgoraSignalSDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1CB3DE3575626D78C2FAD0DE /* AgoraSignalSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CB3D2ACFF6FF9EFC9734A76 /* Build configuration list for PBXNativeTarget "AgoraSignalSDKTests" */;
+			buildPhases = (
+				1CB3DA6E7892FE9FF882C0DA /* Sources */,
+				1CB3D2EF218CE7ED2A6B863C /* Frameworks */,
+				1CB3D102A0AAA1E21DF5E5BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CB3D391DC121BF6BF9A8D57 /* PBXTargetDependency */,
+			);
+			name = AgoraSignalSDKTests;
+			productName = AgoraSignalSDKTests;
+			productReference = 1CB3DA8616FCC07941B58060 /* AgoraSignalSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CB3DCB1D6E3D5DD94350B3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					1CB3DD2021B5A9E3691970D9 = {
+						DevelopmentTeam = 6Q6A24MK2X;
+					};
+				};
+			};
+			buildConfigurationList = 1CB3D8C510B4C99DFB3A4D53 /* Build configuration list for PBXProject "AgoraSignalSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1CB3DCD278F7824717FC131D;
+			productRefGroup = 1CB3D08F0B79A43E16538948 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CB3DD2021B5A9E3691970D9 /* AgoraSignalSDK */,
+				1CB3DE3575626D78C2FAD0DE /* AgoraSignalSDKTests */,
+				1CB3D80F072F9BD1327260CA /* AgoraSignalSDKUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CB3D102A0AAA1E21DF5E5BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CB3DD540424F405DBDECD3D /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CB3D9EBA2E6159F18FD290C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CB3D107C7AF76455B8718CB /* Info.plist in Resources */,
+				1CB3D78387308E30AF581577 /* Assets.xcassets in Resources */,
+				1CB3D2EEFA47501040C9394B /* LaunchScreen.storyboard in Resources */,
+				1CB3D690900CBAA9188E60DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CB3DC2DD5C939FD31586D58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CB3D4B26E13CE16437FD448 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CB3D28141B4F638139175CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CB3D4062AA640F83F5D2C51 /* AgoraSignalSDKUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CB3D6422130CED3E0DB2CB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CB3DF581D6808CB88022E5F /* main.m in Sources */,
+				1CB3D97C6DD20ED0A91623D7 /* AppDelegate.m in Sources */,
+				1CB3DF52C3291B72CB40C320 /* ViewController.m in Sources */,
+				1CB3DC250938B63AFE7BC72A /* CertificateHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CB3DA6E7892FE9FF882C0DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CB3D6D92EF138D375E93F02 /* AgoraSignalSDKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CB3D391DC121BF6BF9A8D57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CB3DD2021B5A9E3691970D9 /* AgoraSignalSDK */;
+			targetProxy = 1CB3DC49B7DDA5733355747C /* PBXContainerItemProxy */;
+		};
+		1CB3D48B6CA416F331C227B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CB3DD2021B5A9E3691970D9 /* AgoraSignalSDK */;
+			targetProxy = 1CB3DDCCF3435B2DA6D19CD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1CB3D432781472535DAA4010 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CB3D5D428926B4837840DCF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1CB3D65AC5530E89033A3ABB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CB3D7DEEE2C0CE5D5812F72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1CB3D02FD48DB860916F43CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/";
+				INFOPLIST_FILE = AgoraSignalSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yanyang.AgoraSignalSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		1CB3D06FEBB51AA0AF4EBBA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/";
+				INFOPLIST_FILE = AgoraSignalSDKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yanyang.AgoraSignalSDKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		1CB3D076FCF1435108468568 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/";
+				INFOPLIST_FILE = AgoraSignalSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yanyang.AgoraSignalSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		1CB3D0B39643BA5F33716002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1CB3D1554A91F98154BC6FE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6Q6A24MK2X;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = AgoraSignalSDK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "\"${PROJECT_DIR}/AgoraSignalSDK/signal\"/**";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yanyang.AgoraSignalSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1CB3D4DC2F622408BA3DEBBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6Q6A24MK2X;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = AgoraSignalSDK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "\"${PROJECT_DIR}/AgoraSignalSDK/signal\"/**";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yanyang.AgoraSignalSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1CB3D922E161CF56E0E6B993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/";
+				INFOPLIST_FILE = AgoraSignalSDKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yanyang.AgoraSignalSDKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		1CB3DE82D9DF1B636465F98D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CB3D0E112B3F581538A5E56 /* Build configuration list for PBXNativeTarget "AgoraSignalSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CB3D4DC2F622408BA3DEBBB /* Debug */,
+				1CB3D1554A91F98154BC6FE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CB3D2ACFF6FF9EFC9734A76 /* Build configuration list for PBXNativeTarget "AgoraSignalSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CB3D076FCF1435108468568 /* Debug */,
+				1CB3D02FD48DB860916F43CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CB3D73951A5B71BBC59BDE6 /* Build configuration list for PBXNativeTarget "AgoraSignalSDKUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CB3D06FEBB51AA0AF4EBBA2 /* Debug */,
+				1CB3D922E161CF56E0E6B993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CB3D8C510B4C99DFB3A4D53 /* Build configuration list for PBXProject "AgoraSignalSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CB3D0B39643BA5F33716002 /* Debug */,
+				1CB3DE82D9DF1B636465F98D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CB3DCB1D6E3D5DD94350B3E /* Project object */;
+}
