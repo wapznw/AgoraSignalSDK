@@ -102,7 +102,7 @@
     self.agoraApi = [AgoraAPI getInstanceWithoutMedia:AppId];
 
 
-    id __weak weak_self = self;
+    id  weak_self = self;
     _agoraApi.onLoginSuccess = ^(uint32_t uid, int fd) {
         [weak_self setLoginState:YES];
         NSLog(@"Login successfully ");
