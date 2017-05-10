@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = { "自娱自乐" => "wapznw@gmail.com" }
   s.platform     = :ios
-  s.source       = { :git => "http://github.com/wapznw/AgoraSignalSDK.git", :tag => "v#{s.version}" }
+  s.source       = { :git => "https://github.com/wapznw/AgoraSignalSDK.git", :tag => "v#{s.version}" }
   s.source_files  = "AgoraSignalSDK/signal/*.{h,m}"
   s.library   = "c++"
   s.vendored_library = "AgoraSignalSDK/signal/libagora_fat.a"
